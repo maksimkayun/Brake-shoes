@@ -16,6 +16,8 @@ public class Main {
     }
 
     public static void work() {
+        mvps.clear();
+        numbers.clear();
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Введите количество полей типа Номер МВПС (ЭД4М - 0091): ");
